@@ -24,7 +24,7 @@ import { ArticleComponent } from './article/article.component';
 const routes: Routes = [
   // basic routes
 { path: '', redirectTo: 'home', pathMatch: 'full' },
-{ path: 'home', component: OmniPageComponent },
+{ path: '', component: OmniPageComponent },
 { path: 'collection', component: ViewPdfComponent },
 { path: 'cv', component: MyCvComponent },
 
